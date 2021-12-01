@@ -21,7 +21,7 @@ function createGrid(gridSize) {
   //   console.log(sizePercent);
   for (let i = 0; i < matrix; i++) {
     let div = document.createElement("div");
-    div.classList.add("square", "red", "basis");
+    div.classList.add("square", "white", "basis");
 
     //   flex: 1 0 6.25%;
     div.style.flexBasis = `${sizePercent}%`;
