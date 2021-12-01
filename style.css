@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.grid {
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+}
+
+.title {
+  display: inline-block;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
+}
+
+.basis {
+  flex: 1 0 6.25%;
+}
+
+.square {
+  /* flex: 1 0 6.25%; */
+  /* flex: 1; */
+  /* height: 50px; */
+  /* border: 1px solid black; */
+}
